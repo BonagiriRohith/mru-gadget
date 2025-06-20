@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 141);
+    color: white;
+    padding: 20px 40px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 4px;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color:#EEF6F9
+}
+
+.r img{
+    width: 200px;
+    height: auto;
+}
+
+button{
+    background-color: rgb(73, 73, 244);
+    color: white;
+    border: 0;
+    margin-top: 2em;
+    padding: 0.6em;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(1, 1, 241);
+}
+
+.hero h1{
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+
+.hero p{
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.hero .l{
+    max-width: 600px;
+}
+
+.features{
+    display: flex;
+    padding: 40px 20px;
+    justify-content:space-around;
+    gap: 25px;
+    text-align: center;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.feature{
+    flex: 1 1 250px;
+    background-color: #e2f3f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.product h2{
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    /* padding: 40px 20px; */
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 6em;
+}
+
+.product-card{
+    flex: 1 1 250px;
+    background-color: whitesmoke;
+    padding: 40px 20px;
+    border-radius:10px;
+}
+.product-card:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.5s;
+}
+.subscribe{
+    text-align: center;
+    padding: 40px 20px;
+    background-color:blue;
+    color: white;
+    border-radius: 10px;
+}
+#sb{
+    background-color: white;
+    color: rgb(50, 50, 243);
+    width: 100px;
+    height: 40px;
+    border-radius: 7% ;
+}
+#email{
+    width: 250px;
+    height: 40px;
+    border-radius: 7%;
+}
+footer{
+    background-color: rgb(76, 73, 73);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

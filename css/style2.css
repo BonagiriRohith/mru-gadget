@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family:  'Lucida Grande';
+
+}
+
+header,footer{
+    background-color: rgb(92, 91, 91);
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 6em;
+    
+}
+.card{
+    text-align: center;
+    background-color: aliceblue;   
+     height: 300px;
+     border-radius: 15px;
+     width: 250px;
+     
+}
+button{
+    background-color: blue;
+    border-radius: 9px;
+    height: 40px;
+    width:14em;
+    margin: 1.5em;
+    color: white;
+}
+.card h1{
+    margin: 1em;
+    color:blue;
+}
+h2{
+    margin-top: 20px;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+    border: 2px solid blue;
+    
+    
+}
